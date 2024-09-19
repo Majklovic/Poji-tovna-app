@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px;
+}
+
+.nav-container h1 {
+  color: #fff;
+  margin: 0;
+}
+
+.nav-container ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-container ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.nav-container ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.insured-list {
+  margin: 20px;
+}
+
+.insured-list h2 {
+  margin-bottom: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  text-align: left;
+}
+
+.new-insured {
+  margin: 20px;
+}
+
+.new-insured h2 {
+  margin-bottom: 10px;
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  flex: 1;
+  margin-right: 10px;
+}
+
+.form-group:last-child {
+  margin-right: 0;
+}
+
+.submit-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: auto;
+}
+
+.submit-btn:hover {
+  background-color: #45a049;
+}
+
+.edit-btn, .delete-btn {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px; 
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+  background-color: #45a049;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+
+
+.aboutApp-list {
+  box-sizing: border-box;
+  margin: auto;
+  width: 800px;
+  line-height: 1.7;
+}
+
+.aboutApp-list li {
+  list-style-position: outside
+}
+
